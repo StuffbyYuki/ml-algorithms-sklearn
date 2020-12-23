@@ -1,3 +1,4 @@
 .*  # all the hidden files
 env
+__py*
 
