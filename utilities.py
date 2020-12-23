@@ -7,6 +7,7 @@ def sklearn_data_to_df(data):
     '''
         translate sklearn df to a pandas dataframe
         dependencies: numpy, pandas
+        target attribute will be named "target"
     '''
     pandas_df = pd.DataFrame(data=np.c_[data['data'], data['target']],
                         columns=np.append(data['feature_names'], ['target']))
