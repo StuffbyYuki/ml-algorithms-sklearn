@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 from utilities import sklearn_data_to_df, train_test_split_from_df
-from sklearn.datasets import load_boston, load_iris
+from sklearn.datasets import load_boston
 from sklearn.linear_model import LinearRegression
 
 # Get data
